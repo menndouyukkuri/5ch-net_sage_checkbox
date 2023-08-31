@@ -3,6 +3,11 @@
 window.addEventListener('load', function() {
 	var mail_address_input = document.getElementsByName('mail');
 	var len = mail_address_input.length;
+
+	for (var i = 0; i < len; i++) {
+		mail_address_input.item(i).value=`sage`;
+	}
+
 	if (len == 0) {
 	} else {
 		var body_elem = document.getElementsByTagName('body').item(0);
