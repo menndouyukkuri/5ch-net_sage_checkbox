@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            5ちゃんねるsageチェックボックス
 // @name:en         5ch.net sage checkbox
-// @version         1.0.2
+// @version         1.0.3
 // @license         MIT License
 // @description     5ちゃんねるのメールアドレス欄にsageコマンドを入力するチェックボックスを追加します。
 // @description:en  Add a check box to enter the sage command in the email address field of 5ch.net.
@@ -15,6 +15,11 @@
 window.addEventListener('load', function() {
 	var mail_address_input = document.getElementsByName('mail');
 	var len = mail_address_input.length;
+
+	for (var i = 0; i < len; i++) {
+		mail_address_input.item(i).value=`sage`;
+	}
+
 	if (len == 0) {
 	} else {
 		var body_elem = document.getElementsByTagName('body').item(0);
