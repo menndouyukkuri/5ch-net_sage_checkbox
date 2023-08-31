@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
 * HTML (Insert with insertAdjacentHTML) *
 
 <div style="* CSS (Described directly on each tag) *">
-	<input type="checkbox" id="sage-checkbox-greasyfork-org-users-1160382" name="sage-checkbox-greasyfork-org-users-1160382"  style="* CSS (Described directly on each tag) *" onclick="* JavaScript (in the onclick of the input tag) *" />
+	<input type="checkbox" id="sage-checkbox-greasyfork-org-users-1160382" name="sage-checkbox-greasyfork-org-users-1160382"  style="* CSS (Described directly on each tag) *" onclick="* JavaScript (in the onclick of the input tag) *" checked />
 	<label for="sage-checkbox-greasyfork-org-users-1160382"  style="* CSS (Described directly on each tag) *">
 		sage
 	</label>
