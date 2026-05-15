@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name            5ちゃんねるsageチェックボックス
 // @name:en         5ch.net sage checkbox
-// @version         1.0.4
+// @version         1.0.5
 // @license         MIT License
 // @description     5ちゃんねるのメールアドレス欄にsageコマンドを入力するチェックボックスを追加します。
 // @description:en  Add a check box to enter the sage command in the email address field of 5ch.net.
 // @match           http://*.5ch.net/*
 // @match           https://*.5ch.net/*
+// @match           http://*.5ch.io/*
+// @match           https://*.5ch.io/*
 // @match           http://*.bbspink.com/*
 // @match           https://*.bbspink.com/*
 // @namespace       https://greasyfork.org/users/1160382
